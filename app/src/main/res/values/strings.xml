@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NeatandClean</string>
+    <string name="Guidelines">Guidelines</string>
+    <string name="Guidelines1">1) Please Use Appropriate bean to throw garbage.       </string>
+    <string name="Guidelines2">2) In that way and all together we can maintain cleanliness in the world.</string>
+    <string name="bio_button">Bio</string>
+    <string name="bulky_button">Bulky</string>
+    <string name="mixed_button">Mixed</string>
+    <string name="metal_button">Metal and Plastic</string>
+    <string name="glass_button">Glass</string>
+    <string name="paper_button">Paper</string>
+    <string name="PLAY">Play</string>
+    <string name="Bin">In which bin will you throw this garbage?</string>
+    <string name="Name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="Done">Go !</string>
+
+
+</resources>

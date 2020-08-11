@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">schludny i czysty</string>
+    <string name="Guidelines">Wytyczne</string>
+    <string name="Guidelines1">1) Proszę użyć odpowiedniej fasoli, aby wyrzucać śmieci.      </string>
+    <string name="Guidelines2">2) W ten sposób i razem możemy zachować czystość na świecie.</string>
+    <string name="bio_button">Bio</string>
+    <string name="bulky_button">Odpady wielkogabarytowe</string>
+    <string name="mixed_button">Odpady zmieszane</string>
+    <string name="metal_button">Metale i tworzywa sztuczne</string>
+    <string name="glass_button">Szkło</string>
+    <string name="paper_button">Papier</string>
+    <string name="PLAY">Grać</string>
+    <string name="Bin">Do którego kosza wyrzucicie te śmieci?</string>
+    <string name="Name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="Done">Gotowe</string>
+</resources>
