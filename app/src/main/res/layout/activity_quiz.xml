@@ -12,11 +12,11 @@
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:layout_below="@+id/button3"
+        android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
-        android:text="Mixed"
-        android:layout_marginStart="15dp"
-        android:textSize="16sp"/>
+        android:text="@string/mixed_button"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/button3"
@@ -70,7 +70,7 @@
         android:layout_marginRight="15dp"
         android:layout_toEndOf="@+id/button"
         android:layout_toRightOf="@+id/button"
-        android:text="Bulky"
+        android:text="@string/bulky_button"
         android:textSize="16sp" />
 
     <ImageView

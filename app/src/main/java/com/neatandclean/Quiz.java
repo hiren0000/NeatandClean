@@ -89,7 +89,7 @@ public class Quiz extends AppCompatActivity {
 
         button.setOnClickListener(new View.OnClickListener() {
 
-           Drawable bg =button.getBackground (  );
+
 
 
             @Override
@@ -412,7 +412,7 @@ public class Quiz extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                if(button5.getText().toString().equalsIgnoreCase(list.get(turn-1).getName()) && (button5.getText ().equals ( "Mixed" ))) {
+                if(button5.getText().toString().equalsIgnoreCase(list.get(turn-1).getName()) ) {
                     button5.setBackgroundColor ( Color.parseColor ("#0BA710"));
                     Toast.makeText(Quiz.this, "Correct", Toast.LENGTH_SHORT).show();
 
@@ -507,7 +507,7 @@ public class Quiz extends AppCompatActivity {
                         }
                     }, 3000);
 
-                    if (turn < list.size())
+                    if (turn <= list.size())
                     {
                         turn++;
                         newQue(turn);

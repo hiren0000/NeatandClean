@@ -23,8 +23,8 @@ public class Result extends AppCompatActivity {
         resultLabel = findViewById ( R.id.resultLabel );
         totalScoreLabel = findViewById ( R.id.totalScoreLabel );
 
-        String sc= getIntent ().getExtras ( ).getString("CurrentSc");
-        resultLabel.setText ( sc );
+        String sc= getIntent ().getStringExtra ("CurrentSc");
+        resultLabel.setText ( "Your score is :"+sc );
 
         /*Intent intent = getIntent();
         int score = intent.getIntExtra("score", 0);

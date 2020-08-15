@@ -85,17 +85,19 @@ public class Questions extends AppCompatActivity implements Serializable {
                      }
                  };
                  counter1.start ();
-       */
-
-              /*new CountDownTimer(30000, 1000) {
-                  //@Override
-                 //public void onTick(long millisUntilFinished) {
-                    //  textView.setText(String.valueOf(counter));
-                      //counter++;
 
 
 
-            */
+    new CountDownTimer(30000, 1000) {
+                     @Overri
+                     //public void onTick(long millisUntilFinished) {
+                        //  textView.setText(String.valueOf(counter));
+                          //counter++;
+
+
+
+
+    */
 
 
     // Menu item code
@@ -133,7 +135,7 @@ public class Questions extends AppCompatActivity implements Serializable {
                     }
                 } );
                 alertbox.show ();
-                //  Toast.makeText ( this, "You pressed Quit", Toast.LENGTH_SHORT ).show ();
+
                 return true;
 
             default:
